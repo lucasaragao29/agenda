@@ -34,7 +34,17 @@ width: 160px;
 height: 60px;
 border-radius: 15px;
 background: #8FFF37;
-justify-content: center;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+`;
+export const IconCont = styled.View`
+  background-color: #6FC829;
+  height: 60px;
+  width: 60px;
+  border-radius: 0 15px 15px 0;
+  justify-content: center;
+  align-items: center;
 `;
 export const BtnTxt = styled.Text`
 font-size: 30px;
