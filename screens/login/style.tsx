@@ -34,5 +34,14 @@ width: 140px;
 height: 60px;
 border-radius: 15px;
 background: #8FFF37;
+justify-content: center;
+`;
+export const BtnTxt = styled.Text`
+font-size: 30px;
+color: black;
+`;
+export const Txt = styled.Text`
+font-size: 20px;
+margin-top: 15px;
 `;
 

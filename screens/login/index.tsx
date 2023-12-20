@@ -3,9 +3,12 @@ import {
   EmailInput , 
   SenhaInput, 
   BtnLogin,
+  BtnTxt,
   Container,
-  ContInpt
+  ContInpt,
+  Txt
 } from "./style";
+
 
 export default function LoginScreen() {
   return (
@@ -13,7 +16,12 @@ export default function LoginScreen() {
       <ContInpt>
         <EmailInput placeholder="E-mail"/>
         <SenhaInput placeholder="Senha"/>
-        <BtnLogin/>
+        <BtnLogin>
+          <BtnTxt>Enviar</BtnTxt>
+        </BtnLogin>
+        <Txt>
+          Cadastra-se
+        </Txt>
       </ContInpt>
     </Container>
   );
