@@ -8,16 +8,24 @@ import {
   ContInpt,
   Txt
 } from "./style";
-
+import { Image } from "react-native";
+import Icon from 'react-native-vector-icons/FontAwesome5'
 
 export default function LoginScreen() {
   return (
     <Container>
+      <Image
+        style={{width:350,height:250,}}
+        source={require('../../src/img/Logo.png')}/>
       <ContInpt>
         <EmailInput placeholder="E-mail"/>
         <SenhaInput placeholder="Senha"/>
         <BtnLogin>
           <BtnTxt>Enviar</BtnTxt>
+          <Icon 
+            name="send"
+            size={10}  
+          />
         </BtnLogin>
         <Txt>
           Cadastra-se

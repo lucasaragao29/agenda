@@ -5,12 +5,12 @@ export const Container = styled.View`
   flex: 1;
   align-items: center;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: end;
 `;
 export const ContInpt = styled.View`
   background-color: #294380;
-  height: 500px;
+  height: 450px;
   border-radius: 15px 15px 0 0;
   align-items: center;
   justify-content: center;
@@ -30,7 +30,7 @@ margin: 20px 10px 50px 10px;
 border-radius: 15px;
 `;
 export const BtnLogin = styled.TouchableOpacity`
-width: 140px;
+width: 160px;
 height: 60px;
 border-radius: 15px;
 background: #8FFF37;
@@ -44,4 +44,3 @@ export const Txt = styled.Text`
 font-size: 20px;
 margin-top: 15px;
 `;
-
