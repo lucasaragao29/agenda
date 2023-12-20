@@ -15,7 +15,7 @@ export default function LoginScreen() {
   return (
     <Container>
       <Image
-        style={{width:350,height:250,}}
+        style={{width:250,height:180,marginBottom:40,marginTop:50}}
         source={require('../../src/img/Logo.png')}/>
       <ContInpt>
         <EmailInput placeholder="E-mail"/>
