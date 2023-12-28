@@ -15,19 +15,31 @@ export const ContInpt = styled.View`
   align-items: center;
   justify-content: center;
 `;
-export const EmailInput = styled.TextInput`
-  width: 370px;
-  height: 70px;
-  background: #FFE;
-  margin: 0 10px 50px 10px;
-  border-radius: 15px;
+export const ContEmail = styled.View`
+flex-direction: row;
+align-items: center;
+justify-content: center;
 `;
-export const SenhaInput = styled.TextInput`
-width: 370px;
+export const ContPassword = styled.View`
+flex-direction: row;
+align-items: center;
+justify-content: center;
+`;
+export const EmailInput = styled.TextInput`
+width: 350px;
 height: 70px;
 background: #FFE;
-margin: 20px 10px 50px 10px;
+margin: 20px 0 50px 75px;
 border-radius: 15px;
+z-index:0;
+`;
+export const SenhaInput = styled.TextInput`
+width: 350px;
+height: 70px;
+background: #FFE;
+margin: 20px 0px 50px 90px;
+border-radius: 15px;
+z-index:0;
 `;
 export const BtnLogin = styled.TouchableOpacity`
 width: 160px;
@@ -38,13 +50,35 @@ justify-content: space-between;
 align-items: center;
 flex-direction: row;
 `;
-export const IconCont = styled.View`
+export const IconContBtn = styled.View`
   background-color: #6FC829;
   height: 60px;
   width: 60px;
   border-radius: 0 15px 15px 0;
   justify-content: center;
   align-items: center;
+`;
+export const IconCotEmail = styled.View`
+background-color:#DBDBCE;
+align-items: center;
+justify-content: center;
+height: 70px;
+width: 60px;
+z-index:1;
+right:60px;
+bottom:15px;
+border-radius: 0 15px 15px 0;
+`;
+export const IconCotSenha = styled.View`
+background-color:#DBDBCE;
+align-items: center;
+justify-content: center;
+height: 70px;
+width: 60px;
+z-index:1;
+right:60px;
+bottom:15px;
+border-radius: 0 15px 15px 0;
 `;
 export const BtnTxt = styled.Text`
 font-size: 30px;
