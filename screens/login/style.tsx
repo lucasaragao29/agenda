@@ -84,6 +84,9 @@ export const BtnTxt = styled.Text`
 font-size: 30px;
 color: black;
 `;
+export const TxtLink = styled.TouchableOpacity`
+
+`;
 export const Txt = styled.Text`
 font-size: 20px;
 margin-top: 15px;

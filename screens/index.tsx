@@ -3,6 +3,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeScreen from './home';
 import AlarmScreen from './alarm';
 import CalendarioScreen from './calendario';
+import CadastroScreen from './cadastro';
 import { useState } from 'react';
 
 const Tab = createBottomTabNavigator();

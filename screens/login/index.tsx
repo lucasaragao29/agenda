@@ -6,6 +6,7 @@ import { EmailInput,
   BtnTxt, 
   Container, 
   ContInpt, 
+  TxtLink,
   Txt, 
   IconContBtn,
   IconCotEmail,
@@ -16,6 +17,9 @@ import { EmailInput,
 import { Image } from 'react-native';
 import IconMat from 'react-native-vector-icons/MaterialIcons';
 import IconEvil from 'react-native-vector-icons/EvilIcons';
+import { useRoute } from '@react-navigation/native';
+import CadastroScreen from '../cadastro';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 export default function LoginScreen() {
   const IconSend = <IconMat name="send" size={45} color="black" />;
@@ -46,7 +50,11 @@ export default function LoginScreen() {
                 {IconSend}
               </IconContBtn>
             </BtnLogin>
-            <Txt>Cadastra-se</Txt> 
+            <TxtLink>
+              <Txt>
+              Cadastra-se
+              </Txt>
+            </TxtLink> 
       </ContInpt>
     </Container>
   );
