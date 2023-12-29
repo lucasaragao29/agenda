@@ -4,7 +4,7 @@ import LoginScreen from "./screens/login";
 import CadastroScreen from "./screens/cadastro";
 
 export default function Login() {
-  const [telaLogin, setTelaLogin] = useState(false);
+  const [telaLogin, setTelaLogin] = useState(true);
 
-  return telaLogin  ?  <MyTabs /> : <CadastroScreen/> ;
+  return telaLogin  ?  <MyTabs /> : <LoginScreen/> ;
 }

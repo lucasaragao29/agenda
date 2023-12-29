@@ -1,9 +1,13 @@
-import { View,Text } from "react-native";
+import { Container, Txt,Header } from "./style";
 
 export default function HomeScreen() {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Home</Text>
-    </View>
+    <Container>
+      <Header>
+        <Txt>
+          Lista de Afazeres
+        </Txt>
+      </Header>
+    </Container>
   );
 }
