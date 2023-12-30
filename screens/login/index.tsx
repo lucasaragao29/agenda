@@ -14,7 +14,7 @@ import { EmailInput,
   ContEmail,
   ContPassword
 } from './style';
-import { Image } from 'react-native';
+import { Image, StatusBar} from 'react-native';
 import IconMat from 'react-native-vector-icons/MaterialIcons';
 import IconEvil from 'react-native-vector-icons/EvilIcons';
 import { useRoute } from '@react-navigation/native';
@@ -26,6 +26,7 @@ export default function LoginScreen() {
   const IconLogin = <IconEvil name="user" size={45} color="black" />;
   const IconPass = <IconMat name="lock-outline" size={45} color="black" />;
   return (
+    <><StatusBar barStyle="dark-content" backgroundColor="#fff" />
     <Container>
       <Image
         style={{ width: 250, height: 160, marginBottom: 40, marginTop: 50 }}
@@ -57,5 +58,6 @@ export default function LoginScreen() {
             </TxtLink> 
       </ContInpt>
     </Container>
+    </>
   );
 }
