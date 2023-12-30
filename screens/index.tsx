@@ -10,8 +10,6 @@ const Tab = createBottomTabNavigator();
 
 export default function MyTabs() {
   const [ login, setLogin] = useState(true)
-
-
   return (
     <NavigationContainer>
       <Tab.Navigator>
