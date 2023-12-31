@@ -35,7 +35,7 @@ export default function HomeScreen() {
           keyExtractor={item => item.id} />
       </ContList>
       <IconAddCont>
-        <Image source={IconAdd} style={{ width: 55, height: 55, tintColor: '#000' }} />
+        <Image source={IconAdd} style={{ width: 50, height: 60, tintColor: '#000' }} />
       </IconAddCont>
     </Container></>
   );

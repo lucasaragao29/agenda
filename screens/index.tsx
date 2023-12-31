@@ -9,21 +9,24 @@ const Tab = createBottomTabNavigator();
 
 export default function MyTabs() {
   const IconHome = require('../src/icons/IconAdd.png')
+  const IconHomeActive = require('../src/icons/HomeActive.png')
   const IconAlarm = require('../src/icons/Alarm.png')
+  const IconAlarmActive = require('../src/icons/AlarmActive.png')
   const IconCalend = require('../src/icons/calendar.png')
+  const IconCalendActive = require('../src/icons/calendarActive.png')
   return (
     <NavigationContainer>
       <Tab.Navigator>
         <Tab.Screen name='Home' 
-          options={{
+          options={({route}) => ({
             title: 'Home',
             tabBarLabel:'',
             headerTransparent:true,
             headerShown: false,
-            tabBarIcon: ({ color, size }) => (
-              <Image source={IconHome} style={{ width: 35, height: 35, tintColor: '#000' }} />
+            tabBarIcon: ({ color, size, focused}) => (
+              <Image source={focused ? IconHomeActive : IconHome} style={{ width: 35, height: 43}} />
             ),
-          }
+          })
           }
           component={HomeScreen}/>
         <Tab.Screen name='Alarm' 
@@ -32,8 +35,8 @@ export default function MyTabs() {
             headerTransparent:true,
             tabBarLabel:'',
             headerShown: false,
-            tabBarIcon: ({ color, size }) => (
-              <Image source={IconAlarm} style={{ width: 30, height: 30, tintColor: '#000'}} />
+            tabBarIcon: ({ color, size, focused }) => (
+              <Image source={focused ? IconAlarmActive : IconAlarm} style={{ width: 35, height: 35,top:5}} />
             ),
           }}
           component={AlarmScreen}/>
@@ -43,8 +46,8 @@ export default function MyTabs() {
             headerTransparent:true,
             headerShown: false,
             tabBarLabel:'',
-            tabBarIcon: ({ color, size }) => (
-              <Image source={IconCalend} style={{ width: 30, height: 30, tintColor: '#000' }} />
+            tabBarIcon: ({ color, size, focused }) => (
+              <Image source={focused? IconCalendActive : IconCalend} style={{width: 35, height: 35, tintColor: '#000',top:5}} />
             ),
           }}
           component={CalendarioScreen}/>
