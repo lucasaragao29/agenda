@@ -47,7 +47,7 @@ export default function MyTabs() {
             headerShown: false,
             tabBarLabel:'',
             tabBarIcon: ({ color, size, focused }) => (
-              <Image source={focused? IconCalendActive : IconCalend} style={{width: 35, height: 35, tintColor: '#000',top:5}} />
+              <Image source={focused? IconCalendActive : IconCalend} style={{width: 35, height: 35,top:5}} />
             ),
           }}
           component={CalendarioScreen}/>

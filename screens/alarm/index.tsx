@@ -1,9 +1,19 @@
-import { View , Text } from "react-native";
+import { Container, Txt,ContAlarm, Switch, IconAddCont} from "./style";
+import { Image } from "react-native";
 
 export default function AlarmScreen() {
+  const IconAdd = require('../../src/icons/Alarm.png');
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Alarm</Text>
-    </View>
+    <Container>
+      <ContAlarm>
+        <Txt>
+        Hello World!!
+        </Txt>
+        <Switch/>
+      </ContAlarm>
+      <IconAddCont>
+      <Image source={IconAdd} style={{ width: 60, height: 60, tintColor: '#000' }} />
+      </IconAddCont>
+    </Container>
   );
 }
