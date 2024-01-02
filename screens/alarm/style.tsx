@@ -8,12 +8,11 @@ background-color:#f1f6ce;
 `;
 export const ContAlarm = styled.View`
 background-color: #ccc;
-height: 470px;
-width: 370px;
-justify-content: center;
-align-items: center;
+height: 500px;
+width: 350px;
+justify-content: flex-start;
 flex-direction:row;
-bottom:50px;
+bottom:10px;
 `;
 export const Txt = styled.Text`
 font-size: 30px;
@@ -21,8 +20,19 @@ margin-right:40px;
 `;
 export const Switch = styled.Switch`
 `;
+export const ContTaf = styled.View`
+flex-direction: column;
+background-color:red;
+height:100px;
+width:350px;
+margin-top:5px;
+`;
 export const IconAddCont = styled.TouchableOpacity`
 position:fixed;
 left:150px;
-bottom:10px;
+top:10px;
+`;
+export const TimeSwitch = styled.View`
+flex-direction: row;
+justify-content: space-between;
 `;
