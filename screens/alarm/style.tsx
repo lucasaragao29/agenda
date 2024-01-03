@@ -7,7 +7,6 @@ align-items:center;
 background-color:#f1f6ce;
 `;
 export const ContAlarm = styled.View`
-background-color: #ccc;
 height: 500px;
 width: 350px;
 justify-content: flex-start;
@@ -21,11 +20,11 @@ margin-right:40px;
 export const Switch = styled.Switch`
 `;
 export const ContTaf = styled.View`
+background-color:#B9F1D64d;
 flex-direction: column;
-background-color:red;
 height:100px;
 width:350px;
-margin-top:5px;
+margin-top:15px;
 `;
 export const IconAddCont = styled.TouchableOpacity`
 position:fixed;

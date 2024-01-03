@@ -4,7 +4,7 @@ export default function Alarm(){
   return(
     <ContTaf>
           <Txt>
-            {texto}
+           testeee
           </Txt>
           <TimeSwitch>
             <Txt>
