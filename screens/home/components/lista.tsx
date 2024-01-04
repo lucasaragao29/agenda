@@ -1,4 +1,4 @@
-import {TxtList,ContIcon, Lista} from './style'
+import {TxtList,ContIcon, Lista} from '../style'
 import IconMat from 'react-native-vector-icons/MaterialIcons';
 import IconF from 'react-native-vector-icons/Feather';
 import { TouchableOpacity, FlatList } from "react-native";

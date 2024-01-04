@@ -1,6 +1,6 @@
 import {Container,Txt,ContAlarm,Switch,IconAddCont,TimeSwitch,ContTaf} from "./style";
 import {Image, FlatList} from "react-native";
-import Alarm from "./alarm";
+import Alarm from "./components/alarm";
 
 export default function AlarmScreen() {
 const IconAdd=require('../../src/icons/Alarm.png'); 

@@ -1,4 +1,4 @@
-import { ContTaf, Txt, TimeSwitch, Switch} from "./style"
+import { ContTaf, Txt, TimeSwitch, Switch} from "../style"
 import { FlatList } from "react-native";
 
 export default function Alarm(){

@@ -1,7 +1,8 @@
-import { Container, Txt,Header, ContList, IconAddCont} from "./style";
+import { Container, ContList, IconAddCont} from "./style";
 import { Image, StatusBar} from "react-native";
 import { useState } from "react";
-import List from "./lista";
+import List from "./components/lista";
+import Head from "./components/header";
 
 export default function HomeScreen() {
   const IconAdd = require('../../src/icons/IconAdd.png');
@@ -9,18 +10,7 @@ export default function HomeScreen() {
   return (
     <><StatusBar barStyle="dark-content" backgroundColor="#fff" />
     <Container>
-      <Header style={{
-        borderBottomWidth: 5,
-        borderLeftWidth: 5,
-        borderRightWidth: 5,
-        borderBottomColor: '#ccc',
-        borderLeftColor: '#ccc',
-        borderRightColor: '#ccc'
-      }}>
-        <Txt>
-          Lista de Afazeres
-        </Txt>
-      </Header>
+      <Head/>
       <ContList>
         <List/>
       </ContList>
