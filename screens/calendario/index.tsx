@@ -1,36 +1,8 @@
 import { Calendar, LocaleConfig } from "react-native-calendars";
 import { Cont, ContAgen, Txt } from "./style";
 import { useState }from "react";
-import { StyleSheet, Text, FlatList} from "react-native";
-LocaleConfig.locales['fr'] = {
-  monthNames: [
-    'Janvier',
-    'Février',
-    'Mars',
-    'Avril',
-    'Mai',
-    'Juin',
-    'Juillet',
-    'Août',
-    'Septembre',
-    'Octobre',
-    'Novembre',
-    'Décembre'
-  ],
-  monthNames: [
-    'Janeiro',
-    'Fevereiro',
-    'Março',
-    'Abril',
-    'Maio',
-    'Junho',
-    'Julho',
-    'Agosto',
-    'Setembro',
-    'Outubro',
-    'Novembro',
-    'Dezembro'
-  ]}
+import { StyleSheet, Text, FlatList,Modal} from "react-native";
+
 
 export default function CalendarioScreen(){
   const [selected, setSelected] = useState('')
