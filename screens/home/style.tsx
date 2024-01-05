@@ -6,7 +6,6 @@ justify-content:center;
 align-items:center;
 background-color:#F1F6CE;
 `;
-
 export const Header = styled.View`
 background-color: #0D0F36;
 heigt:330px;
@@ -48,10 +47,33 @@ position:fixed;
 left:150px;
 bottom:10px;
 `;
-export const ModalCont = styled.Modal`
-height:300px;
-width:350px;
-background-color:'red';
+export const ModalCont = styled.View`
+flex: 1;
+justify-content: 'center';
+align-items: 'center';
+margin-top: 22px;
 `;
-
-
+export const ModalView = styled.View`
+  margin-top:80px;
+  background-color: #B9F1D6;
+  border-radius: 20px;
+  position:'relative';
+  height:200px;
+  width:370px;
+  alignItems: 'center';
+  top:50px;
+  left:20px;
+`;
+export const Button = styled.TouchableOpacity`
+bottom:20px;
+left:300px;
+`;
+export const Text = styled.Text`
+color: white;
+font-weight: 'bold';
+text-align: 'center';
+`;
+export const ModalTxt = styled.Text`
+margin-bottom: 15px;
+text-align: 'center';
+`;
