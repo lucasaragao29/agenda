@@ -48,3 +48,10 @@ position:fixed;
 left:150px;
 bottom:10px;
 `;
+export const ModalCont = styled.Modal`
+height:300px;
+width:350px;
+background-color:'red';
+`;
+
+

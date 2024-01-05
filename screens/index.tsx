@@ -8,7 +8,7 @@ import { Image } from 'react-native';
 const Tab = createBottomTabNavigator();
 
 export default function MyTabs() {
-  const IconHome = require('../src/icons/IconAdd.png')
+  const IconHome = require('../src/icons/Home.png')
   const IconHomeActive = require('../src/icons/HomeActive.png')
   const IconAlarm = require('../src/icons/Alarm.png')
   const IconAlarmActive = require('../src/icons/AlarmActive.png')
