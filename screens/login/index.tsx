@@ -34,7 +34,7 @@ export default function LoginScreen() {
       />
       <ContInpt>
         <ContEmail>
-          <EmailInput placeholder="E-mail" />
+          <EmailInput placeholder="E-mail"/>
             <IconCotEmail>
               {IconLogin}
             </IconCotEmail>

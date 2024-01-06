@@ -16,39 +16,41 @@ export const ContInpt = styled.View`
   justify-content: center;
 `;
 export const ContEmail = styled.View`
-flex-direction: row;
-align-items: center;
-justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 `;
 export const ContPassword = styled.View`
-flex-direction: row;
-align-items: center;
-justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 `;
 export const EmailInput = styled.TextInput`
-width: 350px;
-height: 70px;
-background: #FFE;
-margin: 20px 0 50px 75px;
-border-radius: 15px;
-z-index:0;
+  width: 350px;
+  height: 70px;
+  background: #FFE;
+  margin: 20px 0 50px 75px;
+  border-radius: 15px;
+  z-index:0;
 `;
 export const SenhaInput = styled.TextInput`
-width: 350px;
-height: 70px;
-background: #FFE;
-margin: 20px 0px 50px 90px;
-border-radius: 15px;
-z-index:0;
+  width: 350px;
+  height: 70px;
+  background: #FFE;
+  margin: 20px 0px 50px 90px;
+  border-radius: 15px;
+  bottom:40px;
+  z-index:0;
 `;
 export const BtnLogin = styled.TouchableOpacity`
-width: 160px;
-height: 60px;
-border-radius: 15px;
-background: #8FFF37;
-justify-content: space-between;
-align-items: center;
-flex-direction: row;
+  width: 160px;
+  height: 60px;
+  border-radius: 15px;
+  background: #8FFF37;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  bottom:55px;
 `;
 export const IconContBtn = styled.View`
   background-color: #6FC829;
@@ -59,35 +61,36 @@ export const IconContBtn = styled.View`
   align-items: center;
 `;
 export const IconCotEmail = styled.View`
-background-color:#DBDBCE;
-align-items: center;
-justify-content: center;
-height: 70px;
-width: 60px;
-z-index:1;
-right:60px;
-bottom:15px;
-border-radius: 0 15px 15px 0;
+  background-color:#DBDBCE;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 60px;
+  z-index:1;
+  right:60px;
+  bottom:15px;
+  border-radius: 0 15px 15px 0;
 `;
 export const IconCotSenha = styled.View`
-background-color:#DBDBCE;
-align-items: center;
-justify-content: center;
-height: 70px;
-width: 60px;
-z-index:1;
-right:60px;
-bottom:15px;
-border-radius: 0 15px 15px 0;
+  background-color:#DBDBCE;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 60px;
+  z-index:1;
+  right:60px;
+  bottom:55px;
+  border-radius: 0 15px 15px 0;
 `;
 export const BtnTxt = styled.Text`
-font-size: 30px;
-color: black;
+  font-size: 30px;
+  color: black;
 `;
 export const TxtLink = styled.TouchableOpacity`
 
 `;
 export const Txt = styled.Text`
-font-size: 20px;
-margin-top: 15px;
+  font-size: 20px;
+  margin-top: 15px;
+  bottom:55px;
 `;
