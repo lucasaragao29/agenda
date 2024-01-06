@@ -56,11 +56,10 @@ const [selected, setSelected] = useState('');
         borderRadius:15,
       }}
       theme={{
-        backgroundColor: '#294380',
-        textSectionTitleColor: '#000',
+        textSectionTitleColor: '#fff',
         selectedDayBackgroundColor: '#00adf5',
         selectedDayTextColor: '#ffffff',
-        todayTextColor: '#00adf5',
+        todayTextColor: '#fff',
         dayTextColor: '#000',
         textDisabledColor: '#d9e'
       }}

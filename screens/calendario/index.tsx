@@ -8,7 +8,7 @@ export default function CalendarioScreen(){
   return (
     <Cont>
       <Calendario/>
-      <ContAgen>
+      <ContAgen style={{borderLeftWidth:5,borderBottomWidth:5}}>
         <Lista/>
       </ContAgen>
     </Cont>
