@@ -8,7 +8,7 @@ import Head from "./components/header";
 export default function HomeScreen() {
   const IconAdd = require('../../src/icons/Home.png');
   const IconX = require('../../src/icons/close.png');
-  const IconF = require('../../src/icons/close.png');
+  const IconF = require('../../src/icons/feather.png');
   const [modalVisible, setModalVisible] = useState(false);
   return (
     <><StatusBar barStyle="dark-content" backgroundColor="#fff" />
@@ -23,14 +23,14 @@ export default function HomeScreen() {
           setModalVisible(!modalVisible);
         }}>
         <ModalCont>
-          <ModalView>
+          <ModalView style={{borderBottomWidth:4,borderRightWidth:4}}>
             <Button
               onPress={() => setModalVisible(!modalVisible)}>
               <Image source={IconX} style={{ width: 50, height: 50 }} />
             </Button>
-            <Input style={{bottom:20,height:60, fontSize:25, borderRadius:50,borderLeftWidth:2,borderBottomWidth:5,left:10}}/>
+            <Input placeholder="Nova Task" style={{bottom:20,height:60, fontSize:25, borderRadius:50,borderLeftWidth:2,borderBottomWidth:5,left:10}}/>
             <TouchableOpacity style={{backgroundColor:'#294380',height:80,width:80,borderRadius:50,left:140}}>
-            <Image source={IconF} style={{ width: 90, height: 0,left:30 }} />
+            <Image source={IconF} style={{ width: 90, height: 90,left:10 }} />
             </TouchableOpacity>
           </ModalView>
         </ModalCont>

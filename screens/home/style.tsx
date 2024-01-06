@@ -77,3 +77,9 @@ export const ModalTxt = styled.Text`
 margin-bottom: 15px;
 text-align: 'center';
 `;
+export const ModalContIcon = styled.View`
+justify-content: center;
+flex-direction: row;
+align-items: space-around;
+top:30px;
+`;
