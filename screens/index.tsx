@@ -18,16 +18,15 @@ export default function MyTabs() {
     <NavigationContainer>
       <Tab.Navigator>
         <Tab.Screen name='Home' 
-          options={({route}) => ({
-            title: 'Home',
-            tabBarLabel:'',
+          options={{
+            title:`Alarme`,
             headerTransparent:true,
+            tabBarLabel:'',
             headerShown: false,
-            tabBarIcon: ({ color, size, focused}) => (
-              <Image source={focused ? IconHomeActive : IconHome} style={{ width: 35, height: 43}} />
+            tabBarIcon: ({ color, size, focused }) => (
+            <Image source={focused ? IconHomeActive : IconHome} style={{ width: 35, height: 43}} />
             ),
-          })
-          }
+          }}
           component={HomeScreen}/>
         <Tab.Screen name='Alarm' 
           options={{

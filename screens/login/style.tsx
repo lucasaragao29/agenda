@@ -85,6 +85,7 @@ export const IconCotSenha = styled.View`
 export const BtnTxt = styled.Text`
   font-size: 30px;
   color: black;
+  left:10px;
 `;
 export const TxtLink = styled.TouchableOpacity`
 
